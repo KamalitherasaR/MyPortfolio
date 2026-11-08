@@ -1,6 +1,3 @@
-
-// Scroll to Top Button
-
 const scrollTopBtn = document.getElementById("scrollTopBtn");
 
 window.addEventListener("scroll", function () {
@@ -13,8 +10,6 @@ window.addEventListener("scroll", function () {
 
 });
 
-// Scroll to Top Click
-
 scrollTopBtn.addEventListener("click", function () {
 
     window.scrollTo({
@@ -23,9 +18,6 @@ scrollTopBtn.addEventListener("click", function () {
     });
 
 });
-
-
-// Active Navigation Highlighting
 
 const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll(".nav-links a");
@@ -60,15 +52,9 @@ window.addEventListener("scroll", function () {
 
 });
 
-
-// Dynamic Copyright Year
-
 const footer = document.querySelector("footer p");
 
 footer.innerHTML = `© ${new Date().getFullYear()} My Portfolio. All Rights Reserved.`;
-
-
-// Mobile Navigation Menu
 
 const menuToggle = document.getElementById("menuToggle");
 const navMenu = document.querySelector(".nav-links");
@@ -85,9 +71,6 @@ menuToggle.addEventListener("click", function () {
 
 });
 
-
-// Close Menu After Clicking a Link
-
 navLinks.forEach(link => {
 
     link.addEventListener("click", function () {
@@ -98,8 +81,6 @@ navLinks.forEach(link => {
     });
 
 });
-
-// Scroll Reveal Animation
 
 const revealElements = document.querySelectorAll(
     ".about-container, .skill-card, .project-card, .education-card, .contact-card"
