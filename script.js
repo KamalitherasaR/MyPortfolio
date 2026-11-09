@@ -105,3 +105,11 @@ revealElements.forEach(element => {
     element.classList.add("reveal");
     observer.observe(element);
 });
+document.querySelectorAll("img").forEach((image) => {
+    image.addEventListener("contextmenu", (event) => {
+        event.preventDefault();
+    });
+});
+document.addEventListener("contextmenu", (event) => {
+    event.preventDefault();
+});
