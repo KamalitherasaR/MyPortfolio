@@ -684,3 +684,8 @@ section {
     display: block;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
+img {
+    -webkit-user-drag: none;
+    user-select: none;
+    pointer-events: auto;
+}
