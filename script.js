@@ -110,6 +110,6 @@ document.querySelectorAll("img").forEach((image) => {
         event.preventDefault();
     });
 });
-document.addEventListener("contextmenu", (event) => {
-    event.preventDefault();
-});
+// document.addEventListener("contextmenu", (event) => {
+//     event.preventDefault();
+// });
